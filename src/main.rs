@@ -45,7 +45,7 @@ struct ColorText;
 
 fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
     let username = whoami::realname();
-    let wish_text = String::from("Hello ")  + ", \n" + "Wishing you and your family"
+    let wish_text = String::from("Wishing you and your family")
             +"\n" + "a very Happy New Year 2023."
             +"\n" + "from Abhijeet Lele.";
 
